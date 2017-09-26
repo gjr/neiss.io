@@ -1,0 +1,100 @@
+html * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+html {
+  background: url("bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: 1em/1.2 "Roboto", sans-serif;
+}
+
+body {
+  color: #333;
+  font-weight: 300;
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tagline {
+  margin: 0 0 1em;
+  font-size: 1.6em;
+}
+
+.title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 3.2em;
+}
+
+.bg-filter {
+  height: 100%;
+  background-color: rgba(255,255,255,0.8);
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 1em 2em;
+  max-width: 24rem;
+}
+
+.icon {
+  padding: .25em;
+  fill: #aaa;
+}
+
+.icon:hover,
+.icon:active {
+  fill: #888;
+}
+
+.icon svg {
+  width: 2.4em;
+  height: 2.4em;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: .5rem 1rem;
+  border: 0;
+  border-radius: 2px;
+  background-color: #e66a28;
+  color: #fafafa;
+  font-size: 1.6em;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #d95d1b;
+}
+
+.title,
+.tagline,
+.btn,
+.icon {
+  transition: .3s all;
+}
+
+@media screen and (min-width: 400px) {
+
+  body {
+    font-size: 78.125%;
+  }
+
+}
